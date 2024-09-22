@@ -1,0 +1,66 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+@font-face {
+    font-family: "PartialSansKR-Regular";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2")
+        format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+header,
+footer {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--b8, #333);
+}
+
+.MainHome_mainHome {
+  display: flex;
+  width: 100%; // 너비를 100%로 변경
+  max-width: 1920px;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 844px) {
+  html {
+    width: 390px;
+    height: 844px;
+    flex-shrink: 0;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  html {
+    width: 100%;
+    // width: 1920px;
+    //height: 1440px;
+    flex-shrink: 0;
+  }
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+//.topBanner {
+//  width: 1920px;
+//  height: 1080px;
+//  flex-shrink: 0;
+//  background: rgba(0, 0, 0, 0.50);
+//}

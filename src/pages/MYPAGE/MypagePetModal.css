@@ -1,0 +1,187 @@
+.MypagePetModal_modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.MypagePetModal_modal-content {
+    width: 620px;
+    height: auto;
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.MypagePetModal_modal-header {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.MypagePetModal_modal-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.MypagePetModal_left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.MypagePetModal_photo-upload {
+    width: 300px;
+    height: 359px;
+    background-color: #F0F3FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MypagePetModal_input-group-pet{
+    width: 300px;
+}
+
+.MypagePetModal_input-group-pet label {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.MypagePetModal_input-group-pet input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #333333;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.MypagePetModal_upload-label {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.MypagePetModal_placeholder {
+    font-size: 16px;
+    color: white;
+    background-color: #999999;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.MypagePetModal_placeholder:active {
+    background-color: #494949;
+}
+
+.MypagePetModal_placeholder:hover {
+    background-color: #5e5e5e;
+}
+
+
+.MypagePetModal_image-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.MypagePetModal_file-input {
+    display: none;
+}
+
+.MypagePetModal_input-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.MypagePetModal_input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.MypagePetModal_input-group label {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.MypagePetModal_input-group input,
+.MypagePetModal_input-group select {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #333333;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.MypagePetModal_modal-footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;  /* 버튼을 중앙으로 정렬 */
+    gap: 10px;
+}
+
+.MypagePetModal_reserve-button {
+    width: 60%;
+    height: 40px;
+    background-color: #0059FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.MypagePetModal_reserve-button:active {
+    background-color: #003699;
+}
+
+.MypagePetModal_reserve-button:hover {
+    background-color: #004bcc;
+}
+
+.MypagePetModal_cancel-reservation {
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 12px;
+    padding-top: 12px;
+}
+
+.MypagePetModal_cancel-reservation:hover {
+    font-weight: 620;
+}
+
+.MypagePetModal_cancel-reservation:active {
+    transform: scale(1);
+}
+
+.MypagePetModal_modal-note {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+}

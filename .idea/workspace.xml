@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f4442dc-ac02-493e-8109-5450acd178c8" name="Changes" comment="24.09.11 version:0.5.2 Refactoring&#10;Kakao API use Header unite" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jinsooBli&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KOSMO-144/Pawfit.git&quot;,
+    &quot;accountId&quot;: &quot;16a05da3-f598-46b7-9d87-52e4a17d0a3c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2lN9wICg59ADqXTbDDEA0zJji6S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/jos34/WebstormProjects/Mypawfit/Pawfit/front",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/images/MainHome" />
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/ERROR/images" />
+      <recent name="$PROJECT_DIR$/src/pages/ERROR" />
+      <recent name="$PROJECT_DIR$/src/state/reducers" />
+      <recent name="$PROJECT_DIR$/src/components/Header" />
+      <recent name="$PROJECT_DIR$/src/pages/MEMBER/register/confirmRegister" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f4442dc-ac02-493e-8109-5450acd178c8" name="Changes" comment="" />
+      <created>1725009904027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725009904027</updated>
+      <workItem from="1725009905135" duration="1997000" />
+      <workItem from="1725261293083" duration="78369000" />
+      <workItem from="1725618058447" duration="153000" />
+      <workItem from="1725618224752" duration="134000" />
+      <workItem from="1725618363466" duration="21000" />
+      <workItem from="1725618387747" duration="116000" />
+      <workItem from="1725618507651" duration="87000" />
+      <workItem from="1725618602453" duration="41000" />
+      <workItem from="1725860128968" duration="14586000" />
+      <workItem from="1725946656415" duration="19447000" />
+      <workItem from="1726021351915" duration="679000" />
+      <workItem from="1726024650282" duration="31000" />
+      <workItem from="1726031498643" duration="17439000" />
+      <workItem from="1726132672860" duration="3779000" />
+    </task>
+    <task id="LOCAL-00001" summary="version">
+      <option name="closed" value="true" />
+      <created>1725359031894</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725359031894</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Prototype">
+      <option name="closed" value="true" />
+      <created>1725359637518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725359637518</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Prototype">
+      <option name="closed" value="true" />
+      <created>1725361369757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725361369757</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Prototype">
+      <option name="closed" value="true" />
+      <created>1725428027442</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725428027442</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Prototype">
+      <option name="closed" value="true" />
+      <created>1725428141627</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725428141627</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Prototype">
+      <option name="closed" value="true" />
+      <created>1725428208967</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725428208967</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Prototype">
+      <option name="closed" value="true" />
+      <created>1725434475991</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725434475991</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Prototype">
+      <option name="closed" value="true" />
+      <created>1725446067390</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725446067390</updated>
+    </task>
+    <task id="LOCAL-00009" summary="24.09.04 version: 0.1.1">
+      <option name="closed" value="true" />
+      <created>1725451159531</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725451159531</updated>
+    </task>
+    <task id="LOCAL-00010" summary="24.09.05 version: 0.1.2">
+      <option name="closed" value="true" />
+      <created>1725515472309</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725515472309</updated>
+    </task>
+    <task id="LOCAL-00011" summary="24.09.05 version: 0.2.0 Main Frame Done">
+      <option name="closed" value="true" />
+      <created>1725521787441</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725521787441</updated>
+    </task>
+    <task id="LOCAL-00012" summary="24.09.05 version: 0.2.0 Main Frame Done">
+      <option name="closed" value="true" />
+      <created>1725521875400</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725521875400</updated>
+    </task>
+    <task id="LOCAL-00013" summary="24.09.05 version: 0.2.0 Main Frame Done">
+      <option name="closed" value="true" />
+      <created>1725521900924</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725521900924</updated>
+    </task>
+    <task id="LOCAL-00014" summary="24.09.05 version: 0.2.0 Main Frame Done">
+      <option name="closed" value="true" />
+      <created>1725522341131</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1725522341131</updated>
+    </task>
+    <task id="LOCAL-00015" summary="24.09.05 version: 0.2.0 Main Frame Done">
+      <option name="closed" value="true" />
+      <created>1725523640829</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1725523640829</updated>
+    </task>
+    <task id="LOCAL-00016" summary="24.09.0 version:0.2.1 minor fix">
+      <option name="closed" value="true" />
+      <created>1725618242594</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1725618242594</updated>
+    </task>
+    <task id="LOCAL-00017" summary="24.09.0 version:0.2.1 minor fix">
+      <option name="closed" value="true" />
+      <created>1725618628969</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1725618628969</updated>
+    </task>
+    <task id="LOCAL-00018" summary="24.09.0 version:0.2.1 minor fix">
+      <option name="closed" value="true" />
+      <created>1725861523804</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1725861523804</updated>
+    </task>
+    <task id="LOCAL-00019" summary="24.09.09 version:0.2.1 minor fix">
+      <option name="closed" value="true" />
+      <created>1725862071680</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1725862071680</updated>
+    </task>
+    <task id="LOCAL-00020" summary="24.09.09 version:0.3.0 main design fix">
+      <option name="closed" value="true" />
+      <created>1725872545184</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1725872545184</updated>
+    </task>
+    <task id="LOCAL-00021" summary="24.09.09 version:0.3.0 main design fix">
+      <option name="closed" value="true" />
+      <created>1725873781025</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1725873781025</updated>
+    </task>
+    <task id="LOCAL-00022" summary="24.09.09 version:0.3.0 main design fix">
+      <option name="closed" value="true" />
+      <created>1725873852584</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1725873852584</updated>
+    </task>
+    <task id="LOCAL-00023" summary="24.09.10 version:0.4.0 Login and Register form">
+      <option name="closed" value="true" />
+      <created>1725967787081</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1725967787081</updated>
+    </task>
+    <task id="LOCAL-00024" summary="24.09.11 version:0.5.1 Refactoring&#10;and footer image fix">
+      <option name="closed" value="true" />
+      <created>1726034852341</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1726034852341</updated>
+    </task>
+    <task id="LOCAL-00025" summary="24.09.11 version:0.5.1 Refactoring&#10;and footer image fix">
+      <option name="closed" value="true" />
+      <created>1726034988690</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1726034988690</updated>
+    </task>
+    <task id="LOCAL-00026" summary="24.09.11 version:0.5.2 Refactoring&#10;Kakao API use Header unite">
+      <option name="closed" value="true" />
+      <created>1726047214228</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1726047214228</updated>
+    </task>
+    <task id="LOCAL-00027" summary="24.09.11 version:0.5.2 Refactoring&#10;Kakao API use Header unite">
+      <option name="closed" value="true" />
+      <created>1726048676073</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1726048676073</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version" />
+    <MESSAGE value="Prototype" />
+    <MESSAGE value="24.09.04 version: 0.1.1" />
+    <MESSAGE value="24.09.05 version: 0.1.2" />
+    <MESSAGE value="24.09.05 version: 0.2.0 Main Frame Done" />
+    <MESSAGE value="24.09.0 version:0.2.1 minor fix" />
+    <MESSAGE value="24.09.09 version:0.2.1 minor fix" />
+    <MESSAGE value="24.09.09 version:0.3.0 main design fix" />
+    <MESSAGE value="24.09.10 version:0.4.0 Login and Register form" />
+    <MESSAGE value="24.09.11 version:0.5.1 Refactoring&#10;and footer image fix" />
+    <MESSAGE value="24.09.11 version:0.5.2 Refactoring&#10;Kakao API use Header unite" />
+    <option name="LAST_COMMIT_MESSAGE" value="24.09.11 version:0.5.2 Refactoring&#10;Kakao API use Header unite" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/footer/Footer.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,97 @@
+.MypageRegisterReviewModal-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.MypageRegisterReviewModal-container {
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    margin: 150px auto;
+}
+
+.MypageRegisterReviewModal-header {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.MypageRegisterReviewModal-appointment-no {
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.MypageRegisterReviewModal-appointment-date {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.MypageRegisterReviewModal-appointment-rating {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.MypageRegisterReviewModal-label {
+    height: 25px;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.MypageRegisterReviewModal-input-review {
+    width: 465px;
+    height: 200px;
+    resize: none; 
+}
+
+.MypageRegisterReviewModal-modal-footer {
+    margin-top: 30px;
+}
+
+.MypageRegisterReviewModal-reserve-button {
+    width:200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #0059FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin: 0 auto;
+}
+
+.MypageRegisterReviewModal-reserve-button:active{
+    background-color: #003699;
+}
+
+
+.MypageRegisterReviewModal-reserve-button:hover{
+    background-color: #004bcc;
+}
+
+
+
+.MypageRegisterReviewModal-cancel-reservation {
+    margin-top: 10px;
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 12px;
+    padding-top: 12px;
+}

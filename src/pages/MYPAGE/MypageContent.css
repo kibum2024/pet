@@ -1,0 +1,41 @@
+.MypageContent_content-container {
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.MypageContent_content-box {
+    width: 100vw;
+    max-width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.MypageContent_tab-root {
+    color: #999999 !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    margin: 0 20px !important;
+}
+
+.MypageContent_tab-root.Mui-selected {
+    color: #333333 !important;
+    border-bottom: 5px solid #333333 !important;
+}
+
+.MypageContent_tabs-indicator {
+    background-color: #333333 !important;
+    height: 5px !important;
+}
+

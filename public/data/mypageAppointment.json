@@ -1,0 +1,21 @@
+[
+    {
+      "a_num" : "20240801110320",
+      "email" : "seonghyeongim@uhwangsin.kr",
+      "p_num" : 1,
+      "v_num" : 7785,
+      "a_date" : "2024-09-15T15:19:49.000Z",
+      "price" : 250000,
+      "c_date" : "2024-09-18",
+      "c_time" : 16,
+      "status" : "신청",
+      "a_name" : null,
+      "a_address" : null,
+      "a_phone" : null,
+      "ad_address" : "",
+      "road_code" : "",
+		  "r_rating" : "5",
+	  	"comments" : "서비스에 감동했습니다!.."
+    }
+]
+  

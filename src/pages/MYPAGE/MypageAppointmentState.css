@@ -1,0 +1,163 @@
+.MypageAppointmentState-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.MypageAppointmentState-modal-content {
+    width: 550px;
+    height: auto;
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.15);
+    position: relative;
+    padding: 60px;
+}
+
+.MypageAppointmentState-modal-header {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.MypageAppointmentState-appointment-no {
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.MypageAppointmentState-appointment-date {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.MypageAppointmentState-input-group {
+    margin-bottom: 16px;
+}
+
+.MypageAppointmentState-input-date {
+    width: 205px !important;
+}
+
+.MypageAppointmentState-input-group-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+/* .MypageAppointmentState-input-group-row .Service_input-group {
+    flex: 1;
+} */
+
+.MypageAppointmentState-input-group label {
+    width: 205px;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.MypageAppointmentState-input-group input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #333333;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.MypageAppointmentState-input-group select {
+    display: flex;
+    width: 205px;
+    height: 40px;
+    border: 1px solid #333333;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.MypageAppointmentState-address-group{
+    margin-bottom: 16px;
+}
+
+.MypageAppointmentState-address-group label{
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.MypageAppointmentState-loadCode {
+    width: 60%;
+    display: flex;
+}
+
+.MypageAppointmentState-address-group input{
+    width: 205px;
+    height: 40px;
+    border: 1px solid #333333;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.MypageAppointmentState-zipcode-button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.MypageAppointmentState-modal-footer {
+    margin-top: 30px;
+}
+
+.MypageAppointmentState-reserve-button {
+    width:200px;
+    height: 40px;
+    background-color: #0059FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.MypageAppointmentState-reserve-button:active{
+    background-color: #003699;
+}
+
+
+.MypageAppointmentState-reserve-button:hover{
+    background-color: #004bcc;
+}
+
+
+
+.MypageAppointmentState-cancel-reservation {
+    margin-top: 10px;
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 12px;
+    padding-top: 12px;
+}
+
+.MypageAppointmentState-modal-note {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+}

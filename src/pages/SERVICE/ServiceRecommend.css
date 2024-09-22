@@ -1,0 +1,309 @@
+.Service_recommend-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 230px;
+    padding-left: 366px;
+    padding-right: 366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 160px;
+}
+
+.Service_Service_title {
+    text-align: center;
+    color: #333333;
+    font-size: 36px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+}
+
+.Service_Service_description {
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-bottom: 54px;
+}
+
+
+
+
+
+
+/*  state 변경될 box1, box2 */
+
+.Service_recommend-box1 {
+    height: 201px;
+    padding: 45px 337px;
+    background: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.10);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+
+.Service_recommend-title {
+    color: black;
+    font-size: 20px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    padding-bottom: 27px;
+}
+
+.Service_register-button {
+    justify-content: center;
+    align-items: center;
+    padding-left: 37px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.Service_register-button-text {
+    color: white;
+    font-size: 24.21px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    height: 60px;
+    padding: 15.74px 23px;
+    background: #0059FF;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 9.68px;
+}
+
+
+
+.Service_recommend-box2 {
+    height: 201px;
+    padding: 45px 337px;
+    background: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.10);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.Service_profile-title {
+    color: black;
+    font-size: 20px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    padding-bottom: 27px;
+}
+
+.Service_select-box-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Service_select-box {
+    display: inline-block;
+    position: relative;
+}
+
+.Service_select {
+    width: 180px;
+    /* 너비 설정 */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #333;
+    /* 테두리 설정 */
+    background-color: white;
+    /* 배경색 */
+    appearance: none;
+    /* 기본 화살표 제거 */
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"%3E%3Cpath d="M7 10l5 5 5-5z"/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    /* 화살표 위치 */
+    background-size: 25px;
+    /* 화살표 크기 */
+}
+
+.Service_select:focus {
+    outline: none;
+    border: 2px solid black;
+    /* 포커스 시 테두리 강조 */
+}
+
+.Service_profile-button {
+    height: 60px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 15.74px;
+    padding-bottom: 15.74px;
+    left: 532.50px;
+    top: 100px;
+    background: #0059FF;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 9.68px;
+    display: inline-flex;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.Service_profile-button-text {
+    color: white;
+    font-size: 24.21px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+.Service_Service_link {
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    padding-top: 54px;
+}
+
+.Service_Service_link:hover {
+    font-weight: 600;
+}
+
+.Service_Service_link:active {
+    transform: scale(1);
+}
+
+.Service_best-section1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+    display: block;
+}
+
+.Service_best-section1 h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 600;
+    padding-bottom: 80px;
+}
+
+
+.Service_best-section2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+}
+
+.Service_best-section2 h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 600;
+    padding-bottom: 80px;
+}
+
+
+.Service_vehicles {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 1188px;
+    height: 500px;
+    gap: 25px;
+    user-select: none;
+}
+
+
+
+.Service_vehicle {
+    width: 380px;
+    height: 500px;
+    padding: 48px 0px;
+    background: #F0F3FA;
+    border-radius: 24px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.Service_vehicle-img {
+    width: 277.61px;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.Service_vehicle-tag {
+    padding: 6px 12px;
+    background: white;
+    border-radius: 18px;
+    border: 0.75px solid #001A63;
+    text-align: center;
+    color: #001A63;
+    font-size: 18px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 400;
+}
+
+.Service_vehicle-name {
+    color: #333333;
+    font-size: 36px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+}
+
+.Service_vehicle-desc {
+    text-align: center;
+    color: #999999;
+    font-size: 20px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.Service_view-button {
+    width: 151px;
+    height: 60px;
+    padding: 15.74px 23px;
+    background: #0059FF;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24.21px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+}

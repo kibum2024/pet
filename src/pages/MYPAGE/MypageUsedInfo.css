@@ -1,0 +1,175 @@
+.mypage-step-state {
+    width: 1040px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 24.21px;
+    margin: 100px auto 20px;
+    color: black;
+}
+.mypage-container {
+    width: 1040px;
+    height: 240px;
+    background: #F0F3FA;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+    display: inline-flex;
+}
+
+.mypage-img {
+    width: 283.21px;
+    height: 150px;
+}
+
+.mypage-info-container {
+    width: 345.98px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 27px;
+    display: inline-flex;
+}
+
+.mypage-info-row {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 18px;
+    display: inline-flex;
+}
+
+.mypage-tag {
+    width: 74px;
+    height: 28px;
+    padding: 4.5px 12.75px;
+    background: white;
+    border-radius: 24px;
+    border: 1px #333333 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    display: flex;
+}
+
+.mypage-tag-text {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Pretendard';
+    font-weight: 400;
+    word-wrap: break-word;
+
+    /* align-self: stretch; */
+    /* font-size: 32px; */
+    /* font-family: 'Pretendard', sans-serif; */
+    /* font-weight: 700; */
+}
+
+.mypage-title {
+    color: #333333;
+    font-size: 24.21px;
+    font-family: 'Pretendard';
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.mypage-steps {
+    width: 342.90px;
+    height: 63px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    display: flex;
+}
+
+.mypage-step-labels {
+    width: 342.90px;
+    height: 19px;
+    position: relative;
+}
+
+.mypage-step-label {
+    color: #999999;
+    font-size: 16px;
+    font-family: 'Pretendard';
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+}
+
+.mypage-step-bar {
+    width: 316px;
+    height: 28px;
+    position: relative;
+}
+
+.mypage-progress {
+    width: 76px;
+    height: 3px;
+    position: absolute;
+    background: #0059FF;
+}
+
+.mypage-step-circle-active {
+    width: 28px;
+    height: 28px;
+    padding: 9px 7px;
+    position: absolute;
+    background: #0059FF;
+    border-radius: 14px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mypage-step-circle-inactive {
+    width: 28px;
+    height: 28px;
+    padding: 5px 5px;
+    position: absolute;
+    background: white;
+    border-radius: 14px;
+    border: 1px #0059FF solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.mypage-button-container {
+    width: 136px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    display: inline-flex;
+}
+
+.mypage-button {
+    height: 60px;
+    padding: 15.74px 23px;
+    background: white;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 9.68px;
+    display: inline-flex;
+}
+
+.mypage-button-primary {
+    background: #0059FF;
+    color: white;
+}
+
+.mypage-button-secondary {
+    background: white;
+    color: #333333;
+}
+
+.mypage-button-text {
+    font-size: 24.21px;
+    font-family: 'Pretendard';
+    font-weight: 700;
+    word-wrap: break-word;
+    cursor: pointer;
+}

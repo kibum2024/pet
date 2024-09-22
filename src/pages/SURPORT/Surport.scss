@@ -1,0 +1,24 @@
+.surport_header {
+    position: relative;
+    background: url(./images/surportHeader.png);
+    height: 500px;
+}
+
+.surport_header h1 {
+    color: white;
+    font-size: 48px;
+    position: absolute;
+    top: 221.5px;
+    left: calc(50% - 222px / 2 - 0.5px);
+}
+.surport_content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 1750px;
+
+    padding: 40px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+}

@@ -1,0 +1,110 @@
+.MypageUserModal-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.MypageUserModal-container {
+    width: 500px;
+    height: 580px;
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    margin: 100px auto;
+}
+
+.MypageUserModal-header {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.MypageUserModal-label {
+    height: 25px;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.MypageUserModal-input-row {
+    height: 50px;
+}
+
+.MypageUserModal-input-row input {
+    width: 100%;
+    height: 35px;
+    padding: 8px;
+}
+
+.MypageUserModal-input-row.postSearch {
+    display: flex;
+}
+
+.MypageUserModal-input-row.roadNo {
+    width: 60%;
+}
+
+.MypageUserModal-button {
+    width: 35%;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 5%;
+    padding: 15.74px, 24px;
+    background: #454545;
+    color: white;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.MypageUserModal-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.MypageUserModal-edit-button {
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 5%;
+    padding: 15.74px, 24px;
+    background: #454545;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.MypageUserModal-edit-button:hover {
+    background-color:#1c1c1c;
+}
+
+.MypageUserModal-cancel-button {
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 5%;
+    padding: 15.74px, 24px;
+    background: white;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #454545;;
+}

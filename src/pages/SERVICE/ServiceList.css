@@ -1,0 +1,162 @@
+.ServiceList_vehicle-list-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 241.75px;
+    padding-left: 440px;
+    padding-right: 440px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ServiceList_vehicle-title {
+    text-align: center;
+    color: #333333;
+    font-size: 36px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    padding-bottom: 80px;
+}
+
+.ServiceList_vehicle-filters {
+    height: 41.25px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 36px;
+    display: inline-flex;
+    padding-bottom: 100px;
+}
+
+.ServiceList_filter-select {
+    width: 140px;
+    height: 45px;
+    padding: 12px 15.75px;
+    border-radius: 22.50px;
+    border: 0.75px solid #001A63;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #001A63;
+    font-size: 18.16px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 500;
+    appearance: none;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23001A63"%3E%3Cpath d="M7 10l5 5 5-5z"/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* 화살표 위치 */
+    background-size: 25px; /* 화살표 크기 */
+}
+
+.ServiceList_filter-select:focus{
+    outline: none;
+    border: 2px solid #001A63; /* 포커스 시 테두리 강조 */
+}
+
+
+
+/* .ServiceList_filter-select option{
+    padding: 10px;
+    font-size: 30px;
+    background-color: #fff;
+    color: #333;
+
+}
+
+.ServiceList_filter-select option:checked{
+    background-color: #f1f1f1;
+    color: #333;
+} */
+
+
+
+
+.ServiceList_vehicle-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ServiceList_vehicle-item {
+    width: 1040px;
+    height: 240px;
+    padding: 0 56px;
+    background: #F8F8F8;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+.ServiceList_vehicle-image {
+    width: 258.76px;
+    height: 130px;
+}
+
+.ServiceList_vehicle-details {
+    width: 160px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.ServiceList_vehicle-name {
+    align-self: stretch;
+    color: #333333;
+    font-size: 32px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+}
+
+.ServiceList_vehicle-rating {
+    align-self: stretch;
+    color: #FFB061;
+    font-size: 25px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2.50px;
+}
+
+.ServiceList_vehicle-description {
+    align-self: stretch;
+    color: #999999;
+    font-size: 20px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.ServiceList_vehicle-price {
+    color: #333333;
+    font-size: 32px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+}
+
+.ServiceList_view-button {
+    width: 151px;
+    height: 60px;
+    padding: 15.74px 23px;
+    background: #0059FF;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 24.21px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.ServiceList_view-button:active {
+    background-color: #003699;    
+}
+
+.ServiceList_view-button:hover {
+    background-color: #004bcc;    
+}

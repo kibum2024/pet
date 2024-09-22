@@ -1,0 +1,74 @@
+.ConfirmRegister_main {
+    //display: flex;
+    width: 1920px;
+    height: 1080px;
+}
+
+
+.ConfirmRegister_main_container {
+    display: flex;
+    //position: relative;
+    width: 377px;
+    flex-direction: column;
+    align-items: center;
+    gap: 46px;
+    margin: 200px 772px 300px 773px;
+}
+
+.ConfirmRegister_btn1 {
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    padding: 12px 99px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    background: var(--blue, #0059FF);
+    left: 40px;
+    cursor: pointer;
+}
+
+.ConfirmRegister_btn1:hover {
+    background: var(--skyblue, #87CEEB);
+}
+
+.ConfirmRegister_btn_text1 {
+    color: var(--w, #FFF);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 21.419px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ConfirmRegister_btn2 {
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    padding: 12px 99px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    background: var(--b1, #E6E6E6);;
+    left: 40px;
+    cursor: pointer;
+}
+
+.ConfirmRegister_btn2:hover {
+    background: var(--white, #ffffff);
+}
+
+.ConfirmRegister_btn_text2 {
+    color: var(--b8, #333);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

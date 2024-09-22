@@ -1,0 +1,121 @@
+.WHeader_header {
+    display: flex;
+    width: 1920px;
+    height: 120px;
+    padding: 0px 200px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    z-index: 500;
+}
+
+.WHeader_menu {
+    display: flex;
+    width: 1520px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.WHeader_item {
+    display: flex;
+    width: 487px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+#WHeader_button1,
+#WHeader_button2,
+#WHeader_button3,
+#WHeader_button4,
+#WHeader_button5 {
+    color: var(--w, #fff);
+    font-family: Pretendard, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#WHeader_button4 {
+    opacity: 0;
+}
+
+.WHeader_logo {
+    //position: relative;
+    //width: 150px;
+    //left: 0;
+    //margin-top: 30px;
+    width: 120px;
+    height: 29.941px;
+    flex-shrink: 0;
+}
+.WHeader_login {
+    color: var(--w, #fff);
+    font-family: "Pretendard", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.BHeader_header{
+    display: flex;
+    width: 1920px;
+    height: 120px;
+    padding: 0px 200px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 1px solid var(--b2, #CCC);
+}
+
+.BHeader_menu {
+    display: flex;
+    position: relative;
+    width: 1520px;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.BHeader_item {
+    display: flex;
+    width: 487px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: row;
+
+}
+
+
+#BHeader_button1,
+#BHeader_button2,
+#BHeader_button3,
+#BHeader_button4,
+#BHeader_button5 {
+    color: var(--b8, #333);
+    font-family: Pretendard, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.BHeader_logo {
+    width: 120px;
+    height: 29.941px;
+    flex-shrink: 0;
+}
+
+.BHeader_login {
+    color: var(--b8, #333);
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

@@ -1,0 +1,751 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+@font-face {
+    font-family: "PartialSansKR-Regular";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2")
+        format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Banner_banner {
+    //text-align: center;
+    width: 1920px;
+    height: 1080px;
+    //flex-shrink: 0;
+    //align-self: stretch;
+    //color: var(--b8, #333);
+    //font-family: Pretendard, serif;
+    //font-size: 32px;
+    //font-style: normal;
+    //font-weight: 700;
+    //line-height: normal;
+    //margin-left: 380px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.Banner_container {
+    position: relative;
+    //margin: 200px 395.63px 1010px 326.37px;
+    bottom: 850px;
+    left: 200px;
+    //top: 395.63px;
+    z-index: 50;
+}
+
+.Banner_player {
+    bottom: 120px;
+    z-index: 1;
+}
+
+.Banner_banner .Banner_text1 {
+    color: var(--w, #fff);
+    font-family: "Pretendard", serif;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 86px; /* 113.158% */
+}
+
+.Banner_banner .Banner_text2 {
+    align-self: stretch;
+    color: var(--w, #fff);
+    font-family: "Pretendard", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+
+.Banner_banner .Banner_text3 {
+    position: relative;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    right: 20px;
+    z-index: 8;
+    bottom: 430px;
+}
+
+.Banner_btn {
+    border: 1px solid var(--w, #fff);
+    display: flex;
+    //padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 156px;
+    height: 44px;
+    color: var(--w, #fff);
+    text-align: center;
+    font-family: "Pretendard", serif;
+    //font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;
+    cursor: pointer;
+}
+
+.Banner_banner a {
+    position: relative;
+    //top: 500px;
+    //right: 100px;
+}
+
+.Content_content {
+    //display: flex;
+    //text-align: center;
+    color: var(--b8, #333);
+    font-family: "Pretendard", serif;
+    width: 1920px;
+    height: 1720px;
+    flex-shrink: 0;
+}
+
+.Content_container {
+    position: relative;
+    //margin: 200px 395.63px 1010px 326.37px;
+    bottom: 1500px;
+    //top: 174.18px;
+    left: 380px;
+    //top: 395.63px;
+    z-index: 50;
+}
+
+.Content_player {
+    left: -10px;
+    z-index: 1;
+}
+
+.Content_bText {
+    color: var(--blue, #0059ff);
+}
+
+.Content_content .Content_text1 {
+    font-size: 61.245px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: stretch;
+}
+
+.Content_content .Content_text2 {
+    position: relative;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 20px;
+}
+
+.Content_btn {
+    position: relative;
+    width: 212px;
+    height: 56px;
+}
+
+.Content_content a {
+    position: relative;
+    top: 50px;
+}
+
+.Content_card1 {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background: var(--lightblue, #f0f3fa);
+    width: 280px;
+    bottom: 200px;
+    left: 800px;
+    align-self: stretch;
+}
+
+.Content_card2 {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background: var(--lightblue, #f0f3fa);
+    width: 280px;
+    bottom: 720px;
+    left: 800px;
+    align-self: stretch;
+}
+
+.Content_card3 {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background: var(--lightblue, #f0f3fa);
+    width: 280px;
+    bottom: 700px;
+    left: 800px;
+    align-self: stretch;
+}
+
+.Content_card1_tBorder {
+    width: 65px;
+    border-radius: 24px;
+    border: 1px solid var(--deepnavy, #001a63);
+    background: var(--w, #fff);
+    text-align: center;
+}
+
+.Content_card1_text1 {
+    position: relative;
+    color: var(--b4, #999);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    top: 50px;
+}
+
+.Content_card1_arrow {
+    position: relative;
+    stroke-width: 2px;
+    stroke: var(--lightblue, #f0f3fa);
+    left: 218px;
+    top: 52px;
+    z-index: 50;
+}
+
+.Content_card1_arrowBorder {
+    position: relative;
+    border: 0.2px;
+    border-radius: 41.25px;
+    background: var(--blue, #0059ff);
+    display: flex;
+    width: 55px;
+    height: 55px;
+    padding: 14px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    left: 173px;
+    top: 100px;
+}
+
+.Content_card1_arrowBorder a {
+}
+
+.Content_card1_cardTruck {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    flex-shrink: 0;
+    bottom: 40px;
+}
+
+.Content_backText {
+    position: relative;
+    color: var(--lightblue, #f0f3fa);
+    text-align: center;
+    font-family: PartialSansKR-Regular, serif;
+    font-size: 220px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Content_bText_text1 {
+    position: relative;
+    bottom: 1400px;
+    right: 130px;
+    z-index: 10;
+}
+
+.Content_bText_text2 {
+    position: relative;
+    right: 800px;
+    bottom: 400px;
+    z-index: 10;
+}
+
+.Content_reviewText {
+    position: relative;
+    color: var(--b8, #333);
+    font-family: "Pretendard";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    top: 350px;
+    left: 520px;
+}
+
+.Content_reviewText_Bold {
+    color: var(--blue, #0059ff);
+    font-family: "Pretendard";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.Content_review1 {
+    display: flex;
+    position: relative;
+    width: 590px;
+    height: 182px;
+    padding: 28px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 16px;
+    background: var(--lightblue, #f0f3fa);
+    top: 550px;
+    left: 200px;
+}
+
+.Content_review_starRating {
+    align-self: stretch;
+    color: var(--orange, #ffb061);
+    font-family: "Pretendard", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Content_review_text {
+    align-self: stretch;
+    color: var(--b8, #333);
+    font-family: "Pretendard", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Login_main {
+    display: flex;
+    width: 1920px;
+    height: 920px;
+    padding-bottom: 160px;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    background: var(--w, #fff);
+}
+
+.Login_main_form {
+    //position: relative;
+    width: 564px;
+    height: 680px;
+    border-radius: 24px;
+    background: var(--w, #fff);
+    box-shadow: 0px 4px 28px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 160px;
+}
+
+.Login_logo {
+    width: 199.551px;
+    height: 49.79px;
+    flex-shrink: 0;
+    margin: 64px 182px 680px 182px;
+}
+
+.Login_text1 {
+    position: relative;
+    color: var(--b8, #333);
+    font-family: Pretendard, serif;
+    font-size: 27.931px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    //margin: 153px 245px 493px 245px;
+    bottom: 650px;
+    left: 245px;
+    right: 245px;
+}
+
+.Login_email {
+    //display: flex;
+    position: relative;
+    width: 400px;
+    height: 42px;
+    text-align: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-width: 0 0 1px;
+    border-bottom: 1px solid var(--b8, #333);
+    background: var(--w, #fff);
+    bottom: 611px;
+    left: 82px;
+    right: 82px;
+}
+
+.Login_email::placeholder {
+    padding: 2px 174px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login_password {
+    //display: flex;
+    position: relative;
+    width: 400px;
+    height: 42px;
+    text-align: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-width: 0 0 1px;
+    border-bottom: 1px solid var(--b8, #333);
+    background: var(--w, #fff);
+    bottom: 562px;
+    left: 82px;
+    right: 82px;
+}
+
+.Login_password::placeholder {
+    padding: 4px 160px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login_findAndReg {
+    position: relative;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 142px;
+    left: 82px;
+    bottom: 534px;
+}
+
+.Login_findAccount {
+    color: var(--b8, #333);
+    font-family: Pretendard, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Login_register {
+    color: var(--b8, #333);
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Login_btn {
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 58px;
+    padding: 7px 156px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    bottom: 421px;
+    left: 82px;
+}
+
+.Login_btn_text {
+    color: var(--w, #fff);
+    font-family: Pretendard;
+    font-size: 27.009px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Login_backToMain {
+    position: relative;
+    color: var(--b4, #999);
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    right: 164px;
+    bottom: 354px;
+}
+
+.Register_main {
+    display: flex;
+    width: 1920px;
+    padding-bottom: 106px;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    background: var(--w, #fff);
+}
+
+.Register_main_form {
+    width: 692px;
+    height: 1378px;
+    border-radius: 24px;
+    background: var(--w, #fff);
+    box-shadow: 0px 4px 28px 0px rgba(0, 0, 0, 0.15);
+}
+
+.Register_logo {
+    position: relative;
+    width: 199.551px;
+    height: 49.79px;
+    flex-shrink: 0;
+    top: 64px;
+    left: 246px;
+    right: 246px;
+}
+
+.Register_mainText {
+    position: relative;
+    width: 97px;
+    height: 30.09px;
+    flex-shrink: 0;
+    color: var(--b8, #333);
+    font-family: Pretendard;
+    font-size: 27.931px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    top: 153.79px;
+    left: 92px;
+}
+
+.Register_main_form > form > div > label {
+    align-self: stretch;
+    color: var(--b8, #333);
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Register_main_form > form > div > input {
+    width: 400px;
+    height: 42px;
+}
+
+.Register_main_form > form > div > label {
+    align-self: stretch;
+    color: var(--b8, #333);
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Register_main_form > form > div > div > div > input {
+    width: 400px;
+    height: 42px;
+}
+
+.Register_main_form > form > div > div > input {
+    width: 400px;
+    height: 42px;
+}
+
+.Register_main_form > form > div > input::placeholder {
+    color: var(--b4, #999);
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Register_registerForm {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 206.01px;
+    left: 72px;
+    gap: 36px;
+}
+
+.Register_autentication_Check {
+    position: relative;
+    width: 120px;
+    height: 42px;
+    padding: 11px 9px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background: var(--b8, #333);
+    left: 30px;
+}
+
+.Register_emailCheck {
+    position: relative;
+    width: 120px;
+    height: 42px;
+    padding: 11px 9px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: var(--b8, #333);
+    left: 30px;
+}
+
+.Register_checkButton {
+    color: var(--w, #fff);
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Register_address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    align-self: stretch;
+}
+
+.Register_addressForm {
+    display: flex;
+    width: 402.687px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.Register_searchForm {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    align-self: stretch;
+}
+
+.Register_searchAddress {
+    display: flex;
+    width: 120px;
+    height: 42px;
+    padding: 11px 9px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: var(--b8, #333);
+}
+
+.Register_searchButton {
+    color: var(--w, #fff);
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Register_addressText {
+    color: var(--b8, #333);
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: stretch;
+}
+
+.Register_button {
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 58px;
+    padding: 7px 156px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    background: var(--blue, #0059ff);
+    left: 45px;
+    bottom: 270px;
+}
+
+.Register_button_text {
+    color: var(--w, #fff);
+    font-family: Pretendard;
+    font-size: 22.009px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Register_toLogin {
+    position: relative;
+    color: var(--b4, #999);
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    top: 1275px;
+    right: 250px;
+}
+
+.Register_newsletter {
+    position: relative;
+    bottom: 30px;
+}
+
+.Register_newsletterRadio1 {
+    position: relative;
+    bottom: 88px;
+    left: 150px;
+}
+
+.Register_newsletterRadio2 {
+    position: relative;
+    bottom: 192px;
+    left: 220px;
+}
+
+.Register_newsletterYes {
+    position: relative;
+    bottom: 139px;
+    left: 175px;
+}
+
+.Register_newsletterNo {
+    position: relative;
+    bottom: 243px;
+    left: 245px;
+}
+//.Banner_radius {
+//    position: absolute;
+//    width: 746px;
+//    height: 464px;
+//    transform: rotate(-15deg);
+//    flex-shrink: 0;
+//    border-radius: 50% ;
+//    background: rgba(255, 255, 255, 0.30);
+//    box-shadow: -48px -44px 60px -8px rgba(0, 26, 99, 0.02);
+//    color: #ffffff;
+//    margin-left: 180px;
+//    margin-top: 100px;
+//    z-index: 1;
+//}
+
+//.Banner_car {
+//    display: flex;
+//    position: relative;
+//    margin-left: 700px;
+//    margin-top: 150px;
+//    z-index: 2;
+//}
